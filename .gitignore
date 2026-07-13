@@ -1,0 +1,27 @@
+# Java & Gradle/Maven
+.gradle/
+build/
+target/
+*.class
+*.jar
+*.war
+
+# Environment Variables & Secrets
+.env
+*.env
+application-local.yml
+application-local.properties
+
+# Python (Local Worker)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# IDE & OS Metadata
+.idea/
+.vscode/
+*.swp
+*.DS_Store
+Thumbs.db
