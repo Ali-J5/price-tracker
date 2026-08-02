@@ -1,27 +1,33 @@
-# Java & Gradle/Maven
-.gradle/
-build/
+HELP.md
 target/
-*.class
-*.jar
-*.war
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Environment Variables & Secrets
-.env
-*.env
-application-local.yml
-application-local.properties
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Python (Local Worker)
-__pycache__/
-*.py[cod]
-venv/
-.venv/
-env/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# IDE & OS Metadata
-.idea/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
 .vscode/
-*.swp
-*.DS_Store
-Thumbs.db
