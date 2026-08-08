@@ -13,3 +13,11 @@
 ## [Phase 1.2] Scaffolding the Spring Boot API
 * **Status:** Completed
 * **Completed:** Generated Spring Boot 4.1 base project with Web and Actuator dependencies. Verified local Maven build. Code merged to `main`.
+
+
+## [Phase 1.3] Dockerizing the API
+* **Status:** Completed
+* **Completed:** Created multi-stage `Dockerfile` using Java 21 Alpine. Successfully tested local container build. 
+
+---
+**Phase 1 Complete.**
