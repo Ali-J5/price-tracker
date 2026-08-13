@@ -25,3 +25,10 @@
 ## [Phase 2.1] PostgreSQL & Flyway Migrations
 * **Status:** Completed
 * **Completed:** Configured `docker-compose.yml` for local PostgreSQL. Added JPA and Flyway starter dependencies. Successfully executed `V1__init_schema.sql` to build `tracked_items` and `price_logs` tables.
+
+## [Phase 2.2] JPA Entities & Repositories
+* **Status:** Completed
+* **Completed:** Created `TrackedItem` and `PriceLog` JPA entities with BigDecimal precision and Lazy loading. Created Spring Data Repositories for database access. Passed application context load tests.
+
+---
+**Phase 2 Complete.**
