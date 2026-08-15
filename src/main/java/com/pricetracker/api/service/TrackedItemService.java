@@ -35,7 +35,7 @@ public class TrackedItemService {
         return new TrackedItemResponse(saved.getId(), saved.getUrl(), saved.getName(), saved.getTargetPrice());
     }
 
-    public List getAllItems() {
+    public List<TrackedItemResponse> getAllItems() {
         log.info("Fetching all tracked items");
         return repository.findAll().stream()
                 .map(item -> new TrackedItemResponse(item.getId(), item.getUrl(), item.getName(),
