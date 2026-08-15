@@ -37,3 +37,8 @@
 * **Status:** Completed
 * **Completed:** Implemented immutable Java 21 Records for `TrackedItem` DTOs. Built `TrackedItemService` to encapsulate business logic and integrated SLF4J structured logging for safe observability.
 
+
+## [Phase 3.2] REST Controllers
+* **Status:** Completed
+* **Completed:** Built `TrackedItemController` handling GET and POST requests. Mapped incoming JSON to DTOs and returned proper `ResponseEntity` HTTP status codes. Validated endpoints locally via cURL.
+
