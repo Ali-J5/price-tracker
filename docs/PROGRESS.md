@@ -49,3 +49,7 @@
 ---
 **Phase 3 Complete.**
 
+
+## [Phase 4.1] Local Worker Environment Setup
+* **Status:** Completed
+* **Completed:** Initialized isolated Python `venv` inside the `/worker` directory. Installed `playwright` (Chromium) and `requests`. Generated `requirements.txt` and created baseline script.
