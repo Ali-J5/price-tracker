@@ -32,3 +32,8 @@
 
 ---
 **Phase 2 Complete.**
+
+## [Phase 3.1] DTOs & Service Layer
+* **Status:** Completed
+* **Completed:** Implemented immutable Java 21 Records for `TrackedItem` DTOs. Built `TrackedItemService` to encapsulate business logic and integrated SLF4J structured logging for safe observability.
+
