@@ -62,3 +62,10 @@
 * **Status:** Completed
 * **Completed:** Created `PriceLogRequest` DTO. Added `addPriceLog` business logic in `TrackedItemService`. Exposed `POST /api/items/{id}/prices` endpoint in the controller to receive data from the worker.
 
+## [Phase 4.4] The Full API Loop
+* **Status:** Completed
+* **Completed:** Integrated Python scraper with Spring Boot API. Configured `requests` to fetch pending items and POST scraped prices. Implemented micro-timing politeness delays (4-9 seconds) to prevent WAF bot detection.
+
+---
+**Phase 4 Complete.**
+
