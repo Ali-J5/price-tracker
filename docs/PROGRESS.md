@@ -53,3 +53,8 @@
 ## [Phase 4.1] Local Worker Environment Setup
 * **Status:** Completed
 * **Completed:** Initialized isolated Python `venv` inside the `/worker` directory. Installed `playwright` (Chromium) and `requests`. Generated `requirements.txt` and created baseline script.
+
+## [Phase 4.2] Core Scraping Logic
+* **Status:** Completed
+* **Completed:** Implemented Playwright script to navigate Amazon and extract pricing elements. Configured stealth HTTP headers and User-Agent to bypass WAF bot detection in headless mode. Built Regex function to clean currency strings into raw floats.
+
