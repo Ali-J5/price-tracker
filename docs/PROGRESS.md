@@ -58,3 +58,7 @@
 * **Status:** Completed
 * **Completed:** Implemented Playwright script to navigate Amazon and extract pricing elements. Configured stealth HTTP headers and User-Agent to bypass WAF bot detection in headless mode. Built Regex function to clean currency strings into raw floats.
 
+## [Phase 4.3] API Price Logging Endpoint
+* **Status:** Completed
+* **Completed:** Created `PriceLogRequest` DTO. Added `addPriceLog` business logic in `TrackedItemService`. Exposed `POST /api/items/{id}/prices` endpoint in the controller to receive data from the worker.
+
